@@ -125,100 +125,94 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
-          className="min-h-screen min-w-screen object-cover md:h-screen md:w-screen"
+          className="h-screen object-cover md:h-screen md:w-screen"
           alt="bg-image"
           src={BACKGROUND_IMAGE}
         />
       </div>
-
-      <div className="min-h-screen w-full bg-black flex justify-center items-start pt-10 px-2 md:px-0 ">
-        <div className="absolute z-50 top-2 bg-black md:w-[30%] text-center md:mx-[36%] bg-opacity-80 px-6 h-auto my-52 md:my-12 pt-4  w-full">
-          <h1 className="text-white font-bold text-[39px] -ml-[50%] mt-0 mb-5">
-            {signInForm ? "Sign in" : "Sign up"}
-          </h1>
-          <form
-            className=" md:w-[350px] -mx-4"
-            onSubmit={(e) => e.preventDefault()}
-          >
-            {!signInForm && (
-              <div className="my-5 px-10">
-                <input
-                  ref={name}
-                  className=" w-full h-[55px] bg-gray-700 bg-opacity-75 px-5 rounded-lg text-white text-xl"
-                  type="text"
-                  placeholder="Name"
-                ></input>
-                <div className="text-red-500 text-[19px] w-full  flex ml-1">
-                  {signName}
-                </div>
-              </div>
-            )}
+      <div className="absolute z-50 top-10 bg-black lg:w-[30%] text-center lg:mx-[36%] bg-opacity-80 px-6 h-auto my-12 pt-6 mx-[20%] w-[290px]">
+        <h1 className="text-white font-bold text-[39px] -ml-[50%] mt-10 mb-11">
+          {signInForm ? "Sign in" : "Sign up"}
+        </h1>
+        <form className="W-[500]" onSubmit={(e) => e.preventDefault()}>
+          {!signInForm && (
             <div className="my-5 px-10">
               <input
-                autoSave="bg"
-                ref={email}
+                ref={name}
                 className="w-full h-[55px] bg-gray-700 bg-opacity-75 px-5 rounded-lg text-white text-xl"
                 type="text"
-                placeholder="Email"
+                placeholder="Name"
               ></input>
+              <div className="text-red-500 text-[19px] w-full  flex ml-1">
+                {signName}
+              </div>
             </div>
-            <div className="my-5 px-10 ">
-              <div className="flex flex-row ">
-                <div className="">
-                  <input
-                    ref={password}
-                    className="w-[124%] h-[55px] bg-gray-700 bg-opacity-75 px-5 rounded-lg text-white text-xl"
-                    type={passchange ? "text" : "password"}
-                    placeholder="Password"
-                  ></input>{" "}
-                </div>
+          )}
+          <div className="my-5 px-10">
+            <input
+              autoSave="bg"
+              ref={email}
+              className="w-full h-[55px] bg-gray-700 bg-opacity-75 px-5 rounded-lg text-white text-xl"
+              type="text"
+              placeholder="Email"
+            ></input>
+          </div>
+          <div className="my-5 px-10 ">
+            <div className="flex flex-row ">
+              <div className="">
+                <input
+                  ref={password}
+                  className="w-[124%] h-[55px] bg-gray-700 bg-opacity-75 px-5 rounded-lg text-white text-xl"
+                  type={passchange ? "text" : "password"}
+                  placeholder="Password"
+                ></input>{" "}
+              </div>
 
-                <div>
-                  <div
-                    onClick={passwordHandler}
-                    className="cursor-pointer text-2xl text-white justify-center items-center my-3 mx-2 pt-[2.6px] pl-[10px] hover:scale-110 transition select-none"
-                  >
-                    {/* {passchange ? "👀" : "🙈"} */}
-                    {passchange ? <FiEyeOff /> : <FiEye />}
-                  </div>
+              <div>
+                <div
+                  onClick={passwordHandler}
+                  className="cursor-pointer text-2xl text-white justify-center items-center my-3 mx-2 pt-[2.6px] pl-[10px] hover:scale-110 transition select-none"
+                >
+                  {/* {passchange ? "👀" : "🙈"} */}
+                  {passchange ? <FiEyeOff /> : <FiEye />}
                 </div>
               </div>
             </div>
+          </div>
 
-            <div className="text-red-500 text-[15px] w-[90%] h-auto flex justify-start items-start ml-8 px-2 font-semibold">
-              <div>{errorMess}</div>
-            </div>
-          </form>
+          <div className="text-red-500 text-[17px] w-[84%] h-auto flex justify-start items-start ml-8 px-4 font-semibold">
+            <div>{errorMess}</div>
+          </div>
+        </form>
 
-          <button
-            type="submit"
-            className="bg-red-700 px-[30%] text-white font-semibold text-[24px] rounded-lg pb-2 mb-2 my-2 hover:bg-opacity-80 "
-            onClick={handleButonClick}
+        <button
+          type="submit"
+          className="bg-red-700 px-[30%] text-white font-semibold text-[29px] rounded-lg pb-2 mb-2 my-6 hover:bg-opacity-80 "
+          onClick={handleButonClick}
+        >
+          {signInForm ? "Sign In" : "Sign up"}
+        </button>
+        <p className=" text-white ml-11 flex  mt-6 mb-4 text-[16px]">
+          {" "}
+          {signInForm ? "New to Netflix ?" : "Already registered ?"}
+          <span
+            className="  mx-2 text-[22px] -mt-[8px] hover:border-b-2  hover:border-white-600 text-red-500"
+            onClick={toggleSignInForm}
           >
-            {signInForm ? "Sign In" : "Sign up"}
-          </button>
-          <p className=" text-white ml-8 flex  mt-3 mb-4 text-[16px]">
+            {signInForm ? " Sign up" : "Sign In"}
+          </span>
+          now...
+        </p>
+        <div className="bg-white w-full py-3 my-4 rounded-md">
+          <span className="text-red-500 font-bold text-[18px] h-10 ">
             {" "}
-            {signInForm ? "New to Netflix ?" : "Already registered ?"}
-            <span
-              className="  mx-2 text-[22px] -mt-[8px] hover:border-b-2  hover:border-white-600 text-red-500"
-              onClick={toggleSignInForm}
-            >
-              {signInForm ? " Sign up" : "Sign In"}
-            </span>
-            now...
-          </p>
-          <div className="bg-white w-full p my-2 rounded-md">
-            <span className="text-red-500 font-bold text-[18px] h-10 ">
-              {" "}
-              Please Use VPN{" "}
-            </span>
-            <div className="font-semibold">
-              {" "}
-              I am using{" "}
-              <span className="text-green-600 font-bold">TMDB API</span> which
-              is not accesible in India
-            </div>
+            Please Use VPN{" "}
+          </span>
+          <div className="font-semibold">
+            {" "}
+            I am using{" "}
+            <span className="text-green-600 font-bold">TMDB API</span> which is
+            not accesible in India
           </div>
         </div>
       </div>

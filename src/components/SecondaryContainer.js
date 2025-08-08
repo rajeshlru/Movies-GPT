@@ -13,7 +13,7 @@ const SecondaryContainer = () => {
     !movies?.Popularmovies;
 
   return (
-    <div className="bg-black w-[64%] md:w-[101%]">
+    <div className="bg-black w-[101%]">
       <div className=" -mt-2 md:-mt-60 relative z-50 ">
         {isLoading ? (
           <>

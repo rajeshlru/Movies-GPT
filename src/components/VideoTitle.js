@@ -2,11 +2,11 @@ import React from "react";
 
 const VideoTitle = ({ title, overview }) => {
   return (
-    <div className="  flex flex-col pt-[30pc] md:pt-56  w-[60%] md:w-[99%] px-2 md:px-10 absolute aspect-video bg-gradient-to-r from-black ">
-      <div className="font-bold text-[30px] md:text-[60px] text-white w-0 md:w-[1000px]">
+    <div className=" flex flex-col pt-[15pc] md:pt-64  w-[99%] px-10 absolute aspect-video bg-gradient-to-r from-black ">
+      <div className="font-bold text-[19px] md:text-[60px] text-white w-[1000px]">
         {title}
       </div>
-      <div className="w-full md:w-[600px] text-white opacity-85 ">
+      <div className="w-full line-clamp-3 md:line-clamp-none md:w-[600px] text-white opacity-85 ">
         {overview}
       </div>
       <div className="my-10 flex flex-row md:flex-row">

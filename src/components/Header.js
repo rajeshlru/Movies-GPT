@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { FiHome, FiLogOut } from "react-icons/fi";
+import { FiLogOut } from "react-icons/fi";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from "./utils/firebase";
 import { useNavigate } from "react-router-dom";
@@ -61,9 +61,9 @@ const Header = () => {
   return (
     <div>
       <div className="flex flex-row justify-evenly">
-        <div className="absolute bg-gradient-to-b from-black px-6 md:px-16 pt-2 z-50 w-screen">
+        <div className="absolute bg-gradient-to-b from-black -px-[1000px] md:px-16 pt-2 z-50 w-screen">
           <img
-            className="w-[50%] md:w-[14.5%] "
+            className="w-[40%] md:w-[14.5%] "
             src={NETFLIX_LOGO}
             alt="Netflix logo"
           />
@@ -73,7 +73,7 @@ const Header = () => {
           <div className="flex ">
             {showGptSearch && (
               <select
-                className="bg-black p-2  text-white  z-50 absolute ml-[80px] md:ml-[200px] my-[26px]"
+                className="bg-black p-2  text-white  z-50 absolute ml-[80px] md:ml-[330px] my-[26px]"
                 onChange={handleLanguageChange}
               >
                 {SUPPORTED_LANGUAGES.map((lang) => (
@@ -84,7 +84,7 @@ const Header = () => {
               </select>
             )}
             <button
-              className="bg-[#e50914e9] rounded-lg px-4 py-2 absolute z-50 text-white text-[18px] -ml-[180px] md:ml-[320px] my-[99px] md:my-[26px] hover:bg-gray-400 hover:bg-opacity-20 "
+              className="bg-[#e50914e9] rounded-lg px-4 py-2 absolute z-50 text-white text-[18px] -ml-[180px] md:ml-[440px] my-[99px] md:my-[26px] hover:bg-gray-400 hover:bg-opacity-20 "
               onClick={GptSearchHandler}
             >
               {showGptSearch ? (
@@ -104,13 +104,13 @@ const Header = () => {
               )}
             </button>
             <img
-              className=" h-10 ml-[0px]  md:ml-[483px] z-50 absolute  my-[40px] md:my-7"
+              className=" h-10 ml-[10px]  md:ml-[603px] z-50 absolute  my-[100px] md:my-7"
               alt="flix logo"
               src={user?.photoURL}
             />
 
             <div
-              className=" h-0 ml-[1px] md:ml-[540px] z-50 absolute  my-[100px] md:my-7 "
+              className=" h-0 ml-[75px] md:ml-[660px] z-50 absolute  my-[100px] md:my-7 "
               onClick={handleSignOut}
             >
               {" "}

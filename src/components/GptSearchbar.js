@@ -42,6 +42,7 @@ const GptSearchbar = () => {
       const validResults = tmdbResults.filter(
         (movieArray) => movieArray.length > 0 && movieArray[0].poster_path
       );
+
       dispatch(
         addGptMovieResult({
           movieNames: gptResults,

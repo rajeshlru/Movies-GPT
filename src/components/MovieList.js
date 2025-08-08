@@ -3,11 +3,11 @@ import MovieCard from "./MovieCard";
 
 const MovieList = ({ title, movies }) => {
   return (
-    <div className="">
-      <h1 className="text-3xl text-white px-0 md:px-9 pt-16 pb-2">{title}</h1>
+    <div>
+      <h1 className="text-3xl text-white px-9 pt-40 md:pt-16 pb-2">{title}</h1>
       <div className="flex overflow-x-scroll hide-scrollbar ml-8 mr-8 ">
         {movies && (
-          <div className="flex">
+          <div className="flex ">
             {movies.map((movie) => (
               <MovieCard
                 key={movie.id}
