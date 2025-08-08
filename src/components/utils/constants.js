@@ -14,7 +14,8 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization: "Bearer " + process.env.REACT_APP_GEMINI_TMDB_API,
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMDZjMTBhZDgzZjAzMjY0MWIwMjQxNWU1OTc1M2ZkZCIsIm5iZiI6MTc1MzYyOTc3NC4wNjQsInN1YiI6IjY4ODY0NDRkN2UwMTg4ZDVjYjcyZWI4ZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.fu2D7D-YiB-5VXA_tAyyYkGrr4tIDmUkgSg66G0zRFE ",
   },
 };
 export const CDN_IMG_URL = "https://image.tmdb.org/t/p/w500/";
@@ -32,4 +33,4 @@ export const SUPPORTED_LANGUAGES = [
     name: "Telugu",
   },
 ];
-export const GEMINI_API_KEY = process.env.REACT_APP_GEMINI_API_KEY;
+export const GEMINI_API_KEY = "AIzaSyAzCgYpaqyqAD6nLCaF89RSQUoLos2Ns_c";
