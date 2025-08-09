@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+🎬 Netflix GPT – AI-Powered Movie & TV Recommendations
+Netflix GPT is an intelligent streaming experience that fuses Netflix’s iconic interface with Gemini AI’s smart recommendations to deliver personalized movies, shows, and search suggestions – faster and smarter than ever.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ Features at a Glance
+🎯 AI-Powered Movie Suggestions – Tailored recommendations using Gemini AI
 
-## Available Scripts
+🔐 Secure Firebase Authentication – Email, password, and Google Sign-In
 
-In the project directory, you can run:
+🎥 Cinematic Experience – Browse, watch trailers, and explore movie details
 
-### `npm start`
+🔍 Smart Search + Debouncing – Faster results without unnecessary API calls
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+💡 Live Search Suggestions – See recommendations as you type (Watch Page)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🌐 Multi-Language Support – English, Telugu, Hindi
 
-### `npm test`
+📱 Responsive Design – Works beautifully on all devices
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🖼 Screenshots
+🔑 Login Page
 
-### `npm run build`
+🏠 Home Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔍 GPT Search Page
+AI-powered movie discovery.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1️⃣ Default GPT Search
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2️⃣ Debouncing Search Suggestions
 
-### `npm run eject`
+3️⃣ Search Results
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🎥 Watch Page with Live Suggestions
+Real-time suggestions while typing in the watch page search bar.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👥 Firebase Users Dashboard
+Track and manage all authenticated users.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🚀 Tech Stack
+Frontend: React.js, Redux Toolkit, Tailwind CSS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Backend: Firebase Authentication & Firestore
 
-## Learn More
+AI Integration: Gemini AI API
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Movie Data: TMDB API
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Deployment: Netlify + Firebase Hosting
 
-### Code Splitting
+🌟 Core Implementations
+🔐 Authentication
+Firebase-powered login/signup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Google & email/password auth
 
-### Analyzing the Bundle Size
+Protected routes for logged-in users
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🎬 Movie Browsing
+Explore by genre & category
 
-### Making a Progressive Web App
+Watch trailers directly
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+View detailed movie descriptions
 
-### Advanced Configuration
+🤖 AI-Powered Search
+Gemini AI understands your query
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Debounced search to reduce API calls
 
-### Deployment
+Instant suggestions as you type
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🤝 Contributing
+Pull requests are welcome! Let’s make Netflix GPT even smarter.
 
-### `npm run build` fails to minify
+🙏 Acknowledgments
+🎥 Netflix – UI Inspiration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🤖 Gemini AI – Smart recommendations
+
+🎬 TMDB – Movie data provider
+
+🔥 Firebase – Authentication & hosting
+
+⭐ If you liked this project, give it a star and share it!
