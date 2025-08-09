@@ -4,6 +4,24 @@ Netflix GPT is an intelligent streaming experience that fuses **Netflix’s icon
 
 ---
 
+
+<p align="center">
+  <a href="https://mymovies-gpt.netlify.app/" target="_blank" title="View Live Demo">
+    <img 
+      src="https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/LOGIN%20PAGE.png" 
+      alt="Netflix GPT Live Demo" 
+      width="400"
+      style="border-radius:12px; border: 2px solid #ff0000;" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://your-demo-link.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/🎬%20Watch%20Live%20Demo-ff0000?style=for-the-badge&logo=netflix&logoColor=white&labelColor=black" />
+  </a>
+</p>
+
+---
+
 ## ✨ **Features at a Glance**
 - 🎯 **AI-Powered Movie Suggestions** – Tailored recommendations using Gemini AI  
 - 🔐 **Secure Firebase Authentication** – Email, password, and Google Sign-In  
@@ -29,15 +47,10 @@ Netflix GPT is an intelligent streaming experience that fuses **Netflix’s icon
 ---
 
 ### 🔍 GPT Search Page – AI-powered movie discovery
+| Default GPT Search | Debouncing Search | GPT Search Results |
+|--------------------|-------------------|--------------------|
+| ![Default GPT Search](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/GPT-SEARCH.png) | ![Debouncing Search](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/SEARCH-SUGGESTIONS.png) | ![Search Results](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/GPT-RESULTS.png) |
 
-**1️⃣ Default GPT Search**  
-![Default GPT Search](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/GPT-SEARCH.png)  
-
-**2️⃣ Debouncing Search Suggestions**  
-![Debouncing Search](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/SEARCH-SUGGESTIONS.png)  
-
-**3️⃣ Search Results**  
-![Search Results](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/GPT-RESULTS.png)  
 
 ---
 
