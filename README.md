@@ -17,26 +17,27 @@ Netflix GPT is an intelligent streaming experience that fuses **Netflix’s icon
 
 ## 🖼 **Screenshots**
 
-### 🔑 Login Page
-*(Add your login page screenshot here)*
+### 🏠 Login Page
+[![Login Page](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/LOGIN%20PAGE.png)](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/LOGIN%20PAGE.png)
+
 
 ---
 
 ### 🏠 Home Page
-[![Home Page](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/LOGIN%20PAGE.png)](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/LOGIN%20PAGE.png)
+[![Home Page](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/HOME%20PAGE.png)](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/HOME%20PAGE.png)
 
 ---
 
 ### 🔍 GPT Search Page – AI-powered movie discovery
 
 **1️⃣ Default GPT Search**  
-![Default GPT Search](assets/screenshots/Screenshot%202025-08-09%20110315.png)  
+![Default GPT Search](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/GPT-SEARCH.png)  
 
 **2️⃣ Debouncing Search Suggestions**  
-![Debouncing Search](assets/screenshots/Screenshot%202025-08-09%20104606.png)  
+![Debouncing Search](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/SEARCH-SUGGESTIONS.png)  
 
 **3️⃣ Search Results**  
-![Search Results](assets/screenshots/Screenshot%202025-08-09%20105947.png)  
+![Search Results](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/GPT-RESULTS.png)  
 
 ---
 
