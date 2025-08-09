@@ -15,7 +15,7 @@ Netflix GPT is an intelligent streaming experience that fuses **Netflix’s icon
   </a>
 </p>
 <p align="center">
-  <a href="https://your-demo-link.netlify.app" target="_blank">
+  <a href="https://mymovies-gpt.netlify.app/" target="_blank">
     <img src="https://img.shields.io/badge/🎬%20Watch%20Live%20Demo-ff0000?style=for-the-badge&logo=netflix&logoColor=white&labelColor=black" />
   </a>
 </p>
