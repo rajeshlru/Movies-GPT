@@ -23,7 +23,7 @@ Netflix GPT is an intelligent streaming experience that fuses **Netflix’s icon
 ---
 
 ### 🏠 Home Page
-*(Add your home page screenshot here)*
+[*(Home Page)*](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/LOGIN%20PAGE.png)
 
 ---
 
