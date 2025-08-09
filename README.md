@@ -1,84 +1,106 @@
-🎬 Netflix GPT – AI-Powered Movie & TV Recommendations
-Netflix GPT is an intelligent streaming experience that fuses Netflix’s iconic interface with Gemini AI’s smart recommendations to deliver personalized movies, shows, and search suggestions – faster and smarter than ever.
+# 🎬 **Netflix GPT – AI-Powered Movie & TV Recommendations**
 
-✨ Features at a Glance
-🎯 AI-Powered Movie Suggestions – Tailored recommendations using Gemini AI
+Netflix GPT is an intelligent streaming experience that fuses **Netflix’s iconic interface** with **Gemini AI’s smart recommendations** to deliver **personalized movies, shows, and search suggestions** – faster and smarter than ever.
 
-🔐 Secure Firebase Authentication – Email, password, and Google Sign-In
+---
 
-🎥 Cinematic Experience – Browse, watch trailers, and explore movie details
+## ✨ **Features at a Glance**
+- 🎯 **AI-Powered Movie Suggestions** – Tailored recommendations using Gemini AI  
+- 🔐 **Secure Firebase Authentication** – Email, password, and Google Sign-In  
+- 🎥 **Cinematic Experience** – Browse, watch trailers, and explore movie details  
+- 🔍 **Smart Search + Debouncing** – Faster results without unnecessary API calls  
+- 💡 **Live Search Suggestions** – See recommendations as you type (Watch Page)  
+- 🌐 **Multi-Language Support** – English, Telugu, Hindi  
+- 📱 **Responsive Design** – Works beautifully on all devices  
 
-🔍 Smart Search + Debouncing – Faster results without unnecessary API calls
+---
 
-💡 Live Search Suggestions – See recommendations as you type (Watch Page)
+## 🖼 **Screenshots**
 
-🌐 Multi-Language Support – English, Telugu, Hindi
+### 🔑 Login Page
+*(Add your login page screenshot here)*
 
-📱 Responsive Design – Works beautifully on all devices
+---
 
-🖼 Screenshots
-🔑 Login Page
+### 🏠 Home Page
+*(Add your home page screenshot here)*
 
-🏠 Home Page
+---
 
-🔍 GPT Search Page
-AI-powered movie discovery.
+### 🔍 GPT Search Page – AI-powered movie discovery
 
-1️⃣ Default GPT Search
+**1️⃣ Default GPT Search**  
+![Default GPT Search](assets/screenshots/Screenshot%202025-08-09%20110315.png)  
 
-2️⃣ Debouncing Search Suggestions
+**2️⃣ Debouncing Search Suggestions**  
+![Debouncing Search](assets/screenshots/Screenshot%202025-08-09%20104606.png)  
 
-3️⃣ Search Results
+**3️⃣ Search Results**  
+![Search Results](assets/screenshots/Screenshot%202025-08-09%20105947.png)  
 
-🎥 Watch Page with Live Suggestions
-Real-time suggestions while typing in the watch page search bar.
+---
 
-👥 Firebase Users Dashboard
-Track and manage all authenticated users.
+### 🎥 Watch Page with Live Suggestions
+Real-time suggestions while typing in the watch page search bar.  
+![Watch Page Suggestions](assets/screenshots/Screenshot%202025-08-09%20105613.png)  
 
-🚀 Tech Stack
-Frontend: React.js, Redux Toolkit, Tailwind CSS
+---
 
-Backend: Firebase Authentication & Firestore
+### 👥 Firebase Users Dashboard
 
-AI Integration: Gemini AI API
+**1️⃣ User List**  
+![Firebase Users](assets/screenshots/Screenshot%202025-08-09%20110117.png)  
 
-Movie Data: TMDB API
+**2️⃣ User Details**  
+![User Details](assets/screenshots/Screenshot%202025-08-09%20105846.png)  
 
-Deployment: Netlify + Firebase Hosting
+---
 
-🌟 Core Implementations
-🔐 Authentication
-Firebase-powered login/signup
+### 📊 Firebase Stats
+![Firebase Stats](assets/screenshots/Screenshot%202025-08-09%20130505.png)  
 
-Google & email/password auth
+---
 
-Protected routes for logged-in users
+## 🚀 Tech Stack
+- **Frontend:** React.js, Redux Toolkit, Tailwind CSS  
+- **Backend:** Firebase Authentication & Firestore  
+- **AI Integration:** Gemini AI API  
+- **Movie Data:** TMDB API  
+- **Deployment:** Netlify + Firebase Hosting  
 
-🎬 Movie Browsing
-Explore by genre & category
+---
 
-Watch trailers directly
+## 🌟 Core Implementations
 
-View detailed movie descriptions
+### 🔐 Authentication
+- Firebase-powered login/signup  
+- Google & email/password auth  
+- Protected routes for logged-in users  
 
-🤖 AI-Powered Search
-Gemini AI understands your query
+### 🎬 Movie Browsing
+- Explore by genre & category  
+- Watch trailers directly  
+- View detailed movie descriptions  
 
-Debounced search to reduce API calls
+### 🤖 AI-Powered Search
+- Gemini AI understands your query  
+- Debounced search to reduce API calls  
+- Instant suggestions as you type  
 
-Instant suggestions as you type
+---
 
-🤝 Contributing
-Pull requests are welcome! Let’s make Netflix GPT even smarter.
+## 🤝 Contributing
+Pull requests are welcome! Let’s make Netflix GPT even smarter.  
 
-🙏 Acknowledgments
-🎥 Netflix – UI Inspiration
+---
 
-🤖 Gemini AI – Smart recommendations
+## 🙏 Acknowledgments
+- 🎥 Netflix – UI Inspiration  
+- 🤖 Gemini AI – Smart recommendations  
+- 🎬 TMDB – Movie data provider  
+- 🔥 Firebase – Authentication & hosting  
 
-🎬 TMDB – Movie data provider
+---
 
-🔥 Firebase – Authentication & hosting
-
-⭐ If you liked this project, give it a star and share it!
+💡 **Enjoyed exploring Netflix GPT?**  
+Your ⭐ helps the project grow and reach more developers.  
