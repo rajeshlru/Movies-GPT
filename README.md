@@ -41,24 +41,16 @@ Netflix GPT is an intelligent streaming experience that fuses **Netflix’s icon
 
 ---
 
-### 🎥 Watch Page with Live Suggestions
-Real-time suggestions while typing in the watch page search bar.  
-![Watch Page Suggestions](assets/screenshots/Screenshot%202025-08-09%20105613.png)  
+### 🎥 Watch Page
+
+![Watch Page](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/WATCH-PAGE.png)  
 
 ---
 
 ### 👥 Firebase Users Dashboard
 
-**1️⃣ User List**  
-![Firebase Users](assets/screenshots/Screenshot%202025-08-09%20110117.png)  
+![Firebase Users](https://raw.githubusercontent.com/rajeshlru/Movies-GPT/refs/heads/main/FIREBASE-USERS.png)  
 
-**2️⃣ User Details**  
-![User Details](assets/screenshots/Screenshot%202025-08-09%20105846.png)  
-
----
-
-### 📊 Firebase Stats
-![Firebase Stats](assets/screenshots/Screenshot%202025-08-09%20130505.png)  
 
 ---
 
